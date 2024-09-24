@@ -52,8 +52,9 @@ const add3 = a => a + 1 ;
 const addNumbers = () => 5 + 5;
 
 
-console.log()
-console.log()
-console.log()
-console.log()
+console.log(sumamrizeUSer(name,age,hashobbies))
+console.log(sumamrizeUSer1(name,age,hashobbies))
+console.log(sumamrizeUSer2(name,age,hashobbies))
+console.log(add1(10,9))
+console.log(add4(15))
 console.log(sumamrizeUSer(name,age,hashobbies));

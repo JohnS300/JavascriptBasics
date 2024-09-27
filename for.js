@@ -9,7 +9,7 @@ const person = {
     character : 'sucks',
 }
 
-//for 
+//for in statement
 for (let x in person){
     console.log(person[x]);
 };

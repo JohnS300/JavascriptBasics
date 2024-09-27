@@ -1,5 +1,6 @@
 //Use for in statement to loop through the properties of an Object
 
+//object
 const person = {
     name : 'ann' ,
     surname : 'griffin',
@@ -8,6 +9,7 @@ const person = {
     character : 'sucks',
 }
 
+//for 
 for (let x in person){
     console.log(person[x]);
 };

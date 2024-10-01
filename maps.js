@@ -16,3 +16,6 @@ console.log(balls.get("football"));
 console.log('What type is fruits? ' + (typeof fruits));
 console.log('Is balls an instance of Map? ' + (balls instanceof Map));
 
+fruits.forEach(function( value, key,){
+    console.log(key + ' = ' + value );
+})

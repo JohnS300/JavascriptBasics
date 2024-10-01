@@ -18,4 +18,7 @@ console.log('Is balls an instance of Map? ' + (balls instanceof Map));
 
 fruits.forEach(function( value, key,){
     console.log(key + ' = ' + value );
-})
+});
+
+//The constructor property returns the constructor function for all JavaScript variables.
+console.log(fruits.constructor);

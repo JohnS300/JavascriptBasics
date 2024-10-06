@@ -12,5 +12,6 @@ const person1 = {
 //console.log(firstName, lastName);
 
 //Destructure with default values for missing properties
-let {firstName , lastName, country = 'US'} = person1;
+let {firstName , lastName, country = 'US', age = 19} = person1;
 console.log(firstName, lastName , country);
+

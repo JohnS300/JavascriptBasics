@@ -9,7 +9,7 @@ try{
     if (currentDate.getHours() <= 12){
         portal(state);
     }else if ((currentDate.getHours() >= 12) && (currentDate.getHours() < 22 )){
-        portal(stete = false);
+        portal(state = false);
     }else{
         throw 'Portal is unstable';
     }
